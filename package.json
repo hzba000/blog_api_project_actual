@@ -1,0 +1,28 @@
+{
+  "name": "blog-api-project",
+  "version": "1.0.0",
+  "description": "creating a blog-api project from scratch",
+  "main": "models.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hzba000/blog-api-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hzba000/blog-api-project/issues"
+  },
+  "homepage": "https://github.com/hzba000/blog-api-project#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "morgan": "^1.9.1",
+    "uuid": "^3.3.2"
+  }
+}
