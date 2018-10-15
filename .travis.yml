@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: GCHWOHYXobbH9LKkJ/VPctM04qUC6iR895gdE6w0EjiQNDocZqXDskwAb5lStfSu1P35zYLbQ/ovAaQi26g/WHD5lu/a0j9uJB2TNpOMieAaDHPzeV+CPksv/JSMt/DdK65tTlsDsPFXI9HEKUZh8r8bXCFLIM0PJqTlaqIyWr/VQfx9c5vOtSXpDCtnu2gplNK8WgGG+U3cctIhEGW/7Ff0hgBf+NLzyCrX84kGIUWWrLOJIVNLIQoIRl0vWtyfOhH+gmBZkoQPYmrQ75pazhPtOM5GjiWsQ+KT7WGe/1tOVmb7vwS9vY2CZ6QLk0YuBfPFbRuIxz+IR9WZ8uPhPKF/FcssTYsqUOSXtU7SpgthHYeCGKaMOMeauP8anbsBRv/4X3zxdj74WvbkbSwQjTlbEa9gzR+7AlHVeFQuuQA+st7SQjtfArPD1Q/j9O9xEyyGEWff2FZ3KszynyU1uCaQ1Ai8+/KGsr8m8z2uuPE9HkNXS2zmZN8tVuL26OPRrouk8f2GJ7B7fYPsCMyb6GA9CaVWCsZZhDpddJxIsr8w3RjN6qoEUFi3PTHSDr/ocXjpDePizpYQftIKTWbPFrFCpZCh27B6eZGgoyl2g5rL9wWNaK2hyU5Pk0wMyeV2M4bYLJeiIGOdNAbp0fLNfSSLc1WdXs0b92BNNNqiHAE=
+  app: obscure-fjord-61748
+  on:
+    repo: hzba000/blog_api_project_actual
